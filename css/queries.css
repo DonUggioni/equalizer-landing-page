@@ -1,0 +1,175 @@
+/* MAX WIDTH 1160px */
+
+@media (max-width: 72.5rem) {
+  html {
+    font-size: 56.5%;
+  }
+
+  .global-container {
+    padding: 0 12rem;
+  }
+
+  .heading-container {
+    margin-top: 11rem;
+  }
+
+  .header-title {
+    padding-right: 22rem;
+  }
+
+  .header-text {
+    padding-right: 20rem;
+  }
+}
+
+/* MAX WIDTH 960px */
+
+@media (max-width: 60em) {
+  .global-container {
+    padding: 0 8rem;
+  }
+
+  .heading-container {
+    margin-top: 9rem;
+  }
+}
+
+/* MAX WIDTH 864px */
+
+@media (max-width: 54em) {
+  body {
+    background-image: url('../assets/bg-main-tablet.png');
+  }
+
+  html {
+    font-size: 50%;
+  }
+
+  .global-container {
+    padding: 0 5rem;
+  }
+
+  .header-title {
+    font-size: 7rem;
+    padding-right: 32rem;
+  }
+
+  .header-text {
+    font-size: 2.2rem;
+    padding-right: 20rem;
+  }
+
+  .header-img {
+    right: -4%;
+  }
+
+  .content-container {
+    margin: 32rem 0 35rem;
+  }
+
+  .card-container {
+    bottom: -40%;
+  }
+
+  .footer {
+    grid-template-columns: 0.5fr 1fr;
+    gap: 2rem;
+    padding: 0 0 9rem;
+  }
+
+  .footer .info {
+    grid-row: 2;
+    padding: 0;
+  }
+
+  .social-icons {
+    grid-row: 2;
+  }
+}
+
+/* MAX WIDTH 696px */
+
+@media (max-width: 43.5em) {
+  body {
+    background-image: url('../assets/bg-main-mobile.png');
+  }
+
+  html {
+    font-size: 43.75%;
+  }
+
+  .nav-logo {
+    padding-left: 4rem;
+  }
+
+  .global-container {
+    min-width: 40rem;
+    padding: 0;
+  }
+
+  .header-container {
+    margin-top: 7rem;
+  }
+
+  .header-title {
+    font-size: 6rem;
+    padding: 0 4rem;
+  }
+
+  .header-text {
+    font-size: 2.2rem;
+    padding: 0 4rem;
+  }
+
+  .header-img {
+    display: none;
+  }
+
+  .content-container {
+    width: 100%;
+    margin-bottom: 65rem;
+  }
+
+  .iphone-example-img {
+    left: 50%;
+    top: -25%;
+    transform: translateX(-50%);
+  }
+
+  .card-container {
+    bottom: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .content-background-img {
+    width: 40rem;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3rem;
+    padding: 0 4rem 9rem;
+  }
+
+  .footer-logo {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .footer .info {
+    grid-row: 2;
+    padding-right: 10rem;
+    line-height: 1.8;
+  }
+
+  .social-icons {
+    grid-row: 3;
+    align-items: flex-end;
+    justify-content: left;
+  }
+}

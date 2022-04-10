@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --cyan: #66e2dc;
+  --orange: #fa7453;
+  --yellowish: #ffb964;
+  --white: #fcfaf9;
+  --dark-blue: #191826;
+  --font: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  background-image: url('../assets/bg-main-desktop.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -20rem -20rem;
+}
+
+.global-container {
+  max-width: 144rem;
+  position: relative;
+  padding: 0 16.5rem;
+  margin: 0 auto;
+}
+
+/* **************
+   ----NAV----
+***************** */
+.nav-logo {
+  padding-top: 6.2rem;
+}
+
+/* **************
+   ----HEADER----
+***************** */
+
+.header-container {
+  margin-top: 12.5rem;
+}
+
+.header-title {
+  font-size: 8.8rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: var(--dark-blue);
+  margin-bottom: 4rem;
+  padding-right: 24rem;
+}
+
+.header-text {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  padding-right: 24rem;
+}
+
+.header-img {
+  position: absolute;
+  top: -2%;
+  right: 0%;
+}
+
+.header-img img {
+  width: 31.2rem;
+}
+
+/* **************
+   ----CONTENT----
+***************** */
+
+.content-container {
+  margin: 32rem 0 20rem;
+  border-radius: 12px;
+  background-color: var(--dark-blue);
+  height: 60rem;
+  position: relative;
+}
+
+.content-background-img {
+  position: absolute;
+  left: 29%;
+  top: -7%;
+}
+
+.iphone-example-img {
+  width: 32rem;
+  height: 64rem;
+  position: absolute;
+  left: 8.25%;
+  top: -35%;
+}
+
+.card-container {
+  width: 44.6rem;
+  padding: 5.8rem 5.6rem 4.8rem;
+  background-color: var(--orange);
+  color: var(--white);
+  border-radius: 12px;
+  position: absolute;
+  right: 9%;
+  bottom: -20%;
+}
+
+.card-header {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2.2rem;
+}
+
+.card-text {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  padding-bottom: 4rem;
+}
+
+.card-price {
+  font-size: 2rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 4.6rem;
+}
+
+.card-price span {
+  font-size: 6.5rem;
+  font-weight: 700;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.btn-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  width: 100%;
+  padding: 1.6rem 0;
+  font-family: var(--font);
+  border-radius: 12px;
+  transition: all 300ms;
+}
+
+.iOS-btn:link,
+.iOS-btn:visited {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+.android-btn:link,
+.android-btn:visited {
+  background-color: var(--white);
+  color: var(--dark-blue);
+}
+
+.iOS-btn:hover,
+.iOS-btn:active {
+  background-color: var(--cyan);
+}
+
+.android-btn:hover,
+.android-btn:active {
+  background-color: var(--yellowish);
+}
+
+/* **************
+   ----FOOTER----
+***************** */
+
+.footer {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr;
+  gap: 2rem;
+  padding: 0 0 9rem;
+}
+
+.info {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--dark-blue);
+  padding: 0 3.5rem;
+  line-height: 1.6;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 2rem;
+}
+
+.icon {
+  transition: all 200ms;
+}
+
+.icon:hover,
+.icon:active {
+  filter: invert(52%) sepia(66%) saturate(1211%) hue-rotate(328deg)
+    brightness(105%) contrast(96%);
+}
+
